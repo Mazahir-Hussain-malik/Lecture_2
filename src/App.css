@@ -1,0 +1,87 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.main_div {
+  background-image: url("./assets/react_image.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  padding: 2rem;
+}
+
+.logo {
+  font-size: 2rem;
+  color: red;
+}
+
+.navlinks ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.navlinks ul li {
+  list-style: none;
+  margin: auto 0;
+  color: white;
+  font-size: 1.3rem;
+}
+.navlinks ul li button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  background-color: yellow;
+}
+
+/* navbar styles end here */
+
+/* hero section style start here */
+.Hero_section {
+  color: white;
+  display: flex;
+  width: 90%;
+  margin: 10rem auto;
+}
+.Hero_section_content {
+  font-size: 1.4rem;
+}
+
+.Hero_section_content h2 {
+  color: yellow;
+  margin: 2rem 0;
+}
+.Hero_section_content p {
+  width: 70%;
+}
+
+.Hero_section_content button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  background-color: yellow;
+  margin: 2rem 1rem;
+}
+.Hero_Section_form input {
+  width: 100%;
+  padding: 1rem 1rem;
+  margin: 1rem 0rem;
+}
+
+.Hero_Section_form button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  background-color: yellow;
+}
